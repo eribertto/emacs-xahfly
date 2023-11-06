@@ -1,0 +1,43 @@
+* TODO My TODO for this machine Ubuntu 23. 
+* add new items here
+* setup dotfiles and bash prompt, copy from nuc eos machine
+* git init dot emacs.d dir to github, see the github link in eww separate frame
+* Learn more practical usage of embark-consult  https://github.com/emacs-straight/embark-consult
+* Plan to DL Magda Kays youtube vlog
+* Complete viewing the series below
+  11.22.63.S01E01.720p.BluRay.x264.ShAaNiG.mkv
+  11.22.63.S01E02.720p.BluRay.x264.ShAaNiG.mkv
+  11.22.63.S01E03.720p.BluRay.x264.ShAaNiG.mkv
+  11.22.63.S01E04.720p.BluRay.x264.ShAaNiG.mkv
+  11.22.63.S01E05.720p.BluRay.x264.ShAaNiG.mkv
+  11.22.63.S01E06.720p.BluRay.x264.ShAaNiG.mkv
+  11.22.63.S01E07.720p.BluRay.x264.ShAaNiG.mkv
+  11.22.63.S01E08.720p.BluRay.x264.ShAaNiG.mkv
+* Plan to install telephone-line modeline, see gmail inbox
+* Learn eshell https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
+* Read this in eww https://ambrevar.xyz/emacs-eshell/index.html 
+* DONE add server mode in init file per this tute  https://www.emacswiki.org/emacs/EmacsAsDaemon
+- State "DONE"       from "TODO"       [2023-11-04 Sat 20:13]
+* DONE check bpi, mbt soas
+- State "DONE"       from              [2023-11-04 Sat 19:37]
+* DONE setup github client in this box
+- State "DONE"       from              [2023-11-04 Sat 19:42]
+* DONE Plan to learn tiling capability of Ubuntu 23.10 https://www.youtube.com/watch?v=JKqsA_B7USM
+- State "DONE"       from "TODO"       [2023-11-04 Sat 20:11]
+* DONE copy dot gitignore from nuc eos machine
+- State "DONE"       from              [2023-11-04 Sat 20:49]
+* DONE copy dot bash_aliases from nuc eos to this ubuntu machine
+- State "DONE"       from              [2023-11-04 Sat 21:36]
+* DONE Plan to MBT transfer to mymy, ctb accounts 10K each
+- State "DONE"       from              [2023-11-06 Mon 05:54]
+* DONE Kulas vlog Lake mahagnao Burauen Leyte https://www.youtube.com/watch?v=GJioQehSyK0 
+- State "DONE"       from              [2023-11-06 Mon 05:54]
+* DONE Record LM session with ctb today 2023-11-04
+- State "DONE"       from              [2023-11-06 Mon 05:55]
+* DONE Install dracula theme, see inbox for instructions https://draculatheme.com/emacs
+- State "DONE"       from              [2023-11-06 Mon 06:04]
+* OBSOLETE setup xah selection keys shortcuts x 4
+- State "OBSOLETE"   from              [2023-11-06 Mon 06:19] \\
+  this is included in xah lee fly keys mode
+* DONE send bpi receipt to sjp re 10K transfer
+- State "DONE"       from              [2023-11-06 Mon 18:50]
