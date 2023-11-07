@@ -166,7 +166,7 @@ cython_debug/
 ### emacs .gitignore files
 /url/cache
 /.emacs.desktop
-/auto-save-list/
+/auto-save-list/ 
 /network-security.data
 /.session
 /session.*
