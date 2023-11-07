@@ -1,7 +1,6 @@
 * TODO My TODO for this machine Ubuntu 23. 
 * add new items here
 * setup dotfiles and bash prompt, copy from nuc eos machine
-* git init dot emacs.d dir to github, see the github link in eww separate frame
 * Learn more practical usage of embark-consult  https://github.com/emacs-straight/embark-consult
 * Plan to DL Magda Kays youtube vlog
 * Complete viewing the series below
@@ -16,6 +15,8 @@
 * Plan to install telephone-line modeline, see gmail inbox
 * Learn eshell https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
 * Read this in eww https://ambrevar.xyz/emacs-eshell/index.html 
+* DONE git init dot emacs.d dir to github, see the github link in eww separate frame
+- State "DONE"       from              [2023-11-06 Mon 19:30]
 * DONE add server mode in init file per this tute  https://www.emacswiki.org/emacs/EmacsAsDaemon
 - State "DONE"       from "TODO"       [2023-11-04 Sat 20:13]
 * DONE check bpi, mbt soas
