@@ -2,78 +2,42 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Nov  5 05:46:47 2023
+;; Created Tue Nov  7 20:18:28 2023
 ;; Desktop file format version 208
 ;; Emacs version 29.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (25927 535 352605 53000) (desktop . "208") "eriberttom@eriberttom-ubuntu2310" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "Grey") (background-color . "Grey15") (mouse-color . "Grey") (border-color . "Grey") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tab-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . bar) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "Grey") (font-parameter) (environment) (sticky) (last-focus-update . t) (tabs (current-tab (name . "mytodos.org") (explicit-name)) (tab (name . ".gitignore_global") (explicit-name) (time . 1699152189.369171) (ws ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 2059) (pixel-height . 1899) (total-width . 98) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer ".gitignore_global" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))) (frameset--id . "2A07-ADCD-06FD-79A5") (frameset--mini t . t) (height . 45) (width . 96) (modeline . t) (unsplittable) (left . 26) (top . 23) (icon-name) (display . "wayland-0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 2059) (pixel-height . 1899) (total-width . 98) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "mytodos.org" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 1642) (start . 1)) (prev-buffers ("*Ibuffer*" 1 271) ("init.el" 15468 15686) ("Downloads" 1 262) ("11.22.63.Season.1.720p.BluRay.x264.ShAaNiG" 1 247) ("mytodos.org" 1 1642) ("*scratch*" 1 1))))])
+(setq desktop-saved-frameset [frameset 1 (25930 29028 448196 84000) (desktop . "208") "eriberttom@eriberttom-ubuntu2310" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (font-parameter . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (font-parameter . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (environment) (sticky) (last-focus-update) (tabs (current-tab (name . "*ansi-term*") (explicit-name)) (tab (name . "*eww*") (explicit-name) (time . 1699376228.0621767) (ws ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 168) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 2059) (pixel-height . 1890) (total-width . 98) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "*eww*" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 4127) (start . 3363)) (prev-buffers ("*eww*" 1 120) ("*scratch*" 1 1))))) (modeline . t) (explicit-name) (cursor-color . "#ccccc7") (frameset--id . "5703-8034-49C7-A9FA") (frameset--mini t) (height . 43) (width . 95) (unsplittable) (left . 26) (top . 23) (icon-name) (display . "wayland-0")) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 2038) (pixel-height . 1818) (total-width . 97) (total-height . 43) (normal-height . 1.0) (normal-width . 1.0) (buffer "*ansi-term*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 5330) (start . 4282)) (prev-buffers ("init.el" 15788 17253) ("*scratch*" 1 1))) (((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (font-parameter) (environment) (sticky) (last-focus-update . t) (tabs (current-tab (name . "*Process List*") (explicit-name)) (tab (name . "*eww*") (explicit-name) (time . 1699376228.0621767) (ws ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 168) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 2059) (pixel-height . 1890) (total-width . 98) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "*eww*" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 4127) (start . 3363)) (prev-buffers ("*eww*" 1 120) ("*scratch*" 1 1))))) (frameset--id . "9C9E-3540-7666-AF1E") (frameset--mini t . t) (height . 45) (width . 96) (modeline . t) (unsplittable) (left . 26) (top . 23) (icon-name) (display . "wayland-0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 2059) (pixel-height . 1890) (total-width . 98) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 16331) (start . 15593)) (prev-buffers ("*scratch*" 1 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '(#("bpi" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("ise" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("text" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("charcoal" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("desktop" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("save" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("settings" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("bedrock" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("bed" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("when" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("24" 0 2 (isearch-case-fold-search t isearch-regexp-function nil)) #("buffer" 0 6 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq search-ring '(#("docu" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("ecn" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("dracula" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("theme" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("bpi" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("ise" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("text" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("charcoal" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("desktop" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("save" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("settings" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("bedrock" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("bed" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("when" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("24" 0 2 (isearch-case-fold-search t isearch-regexp-function nil)) #("buffer" 0 6 (isearch-case-fold-search t isearch-regexp-function nil))))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.gitignore_global" "/media/eriberttom/e5f62be8-da80-4c69-8e54-cceb195ca307/eriberttom/Downloads/11.22.63.Season.1.720p.BluRay.x264.ShAaNiG/" "~/.bashrc" "~/.bash_aliases" "~/.gitignore_global" "~/.config/systemd/user/emacs.service" "~/.emacs.d/todos/mytodos.org" "~/.emacs.d/init.el" "~/.emacs.d/extras/org.el" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/.emacs.d/init.el" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/.emacs.d/init.el" "~/.emacs.d/" "~/.emacs.d/notes/xah-fly-keys.tute.org" "~/.emacs.d/notes/xah-keybindings.cheatsheet.org" "~/Github-repos/better-defaults/better-defaults.el" "~/.emacs.d/init.el" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/.emacs.d/notes/xah-fly-keys.tute.org" "~/.emacs.d/init.el" "~/Github-repos/better-defaults/better-defaults.el" "~/.emacs.d/init.el" "~/Github-repos/better-defaults/README.md" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/Github-repos/better-defaults/README.md"))
+(setq file-name-history '("~/Documents/pubs/Learning_GNU_Emacs,_3rd_Edition_(Debra_Cameron,_James_Elliott,_Marc_Loy_etc.)_(Z-Library)-1.epub" "~/Documents/" "~/.emacs.d/.git/COMMIT_EDITMSG" "~/Documents/" "~/.emacs.d/.git/COMMIT_EDITMSG" "~/.emacs.d/.gitignore" "~/.emacs.d/notes/eshell.intro.org" "~/.bash_aliases" "~/.gitignore_global" "/media/eriberttom/e5f62be8-da80-4c69-8e54-cceb195ca307/eriberttom/Downloads/11.22.63.Season.1.720p.BluRay.x264.ShAaNiG/" "~/.bashrc" "~/.bash_aliases" "~/.gitignore_global" "~/.config/systemd/user/emacs.service" "~/.emacs.d/todos/mytodos.org" "~/.emacs.d/init.el" "~/.emacs.d/extras/org.el" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/.emacs.d/init.el" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/.emacs.d/init.el" "~/.emacs.d/" "~/.emacs.d/notes/xah-fly-keys.tute.org" "~/.emacs.d/notes/xah-keybindings.cheatsheet.org" "~/Github-repos/better-defaults/better-defaults.el" "~/.emacs.d/init.el" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/.emacs.d/notes/xah-fly-keys.tute.org" "~/.emacs.d/init.el" "~/Github-repos/better-defaults/better-defaults.el" "~/.emacs.d/init.el" "~/Github-repos/better-defaults/README.md" "~/bak.emacs.dirs/bedrock.emacs.d/init.el" "~/Github-repos/better-defaults/README.md"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 208
-  "/home/eriberttom/.emacs.d/todos/mytodos.org"
-  "mytodos.org"
-  'org-mode
-  '(scroll-bar-mode hl-line-mode flyspell-mode visual-line-mode org-modern-mode corfu-mode eldoc-mode font-lock-mode)
-  1642
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 25927 247 825199 734000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
-  '((mark-ring (1126 1245 1386 1245 1643 905 45 1077 45 45 1644 1029 1029 984 1 1027))))
-
-(desktop-create-buffer 208
-  "/home/eriberttom/.gitignore_global"
-  ".gitignore_global"
-  'fundamental-mode
-  '(font-lock-mode eldoc-mode corfu-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 25927 304 882741 683000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
 (desktop-create-buffer 208
   "/home/eriberttom/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
   '(dired-hide-details-mode font-lock-mode eldoc-mode corfu-mode display-line-numbers-mode hl-line-mode)
-  15686
-  '(nil nil)
+  16331
+  '(16215 nil)
   nil
   nil
-  '((buffer-display-time 25927 164 303259 379000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
+  '((buffer-display-time 25930 29025 68323 28000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (16213 17253 120 16309 16309 16330))))
 
 (desktop-create-buffer 208
   nil
-  "11.22.63.Season.1.720p.BluRay.x264.ShAaNiG"
-  'dired-mode
-  '(corfu-mode eldoc-mode font-lock-mode all-the-icons-dired-mode dired-hide-details-mode)
-  247
-  '(247 nil)
+  "*eww*"
+  'eww-mode
+  '(font-lock-mode eldoc-mode corfu-mode)
+  4127
+  '(3184 nil)
   t
-  '("/media/eriberttom/e5f62be8-da80-4c69-8e54-cceb195ca307/eriberttom/Downloads/11.22.63.Season.1.720p.BluRay.x264.ShAaNiG/")
-  '((buffer-display-time 25926 38806 483866 653000))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  nil
-  "Downloads"
-  'dired-mode
-  '(corfu-mode eldoc-mode font-lock-mode dired-hide-details-mode all-the-icons-dired-mode)
-  262
-  '(nil nil)
-  t
-  '("/media/eriberttom/e5f62be8-da80-4c69-8e54-cceb195ca307/eriberttom/Downloads/")
-  '((buffer-display-time 25926 38763 349645 940000))
-  '((mark-ring nil)))
+  '(:history ((:url "https://depp.brause.cc/nov.el/" :title "nov.el: Major mode for reading EPUBs in Emacs")))
+  '((buffer-display-time 25930 27745 28381 212000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t) (eww-history-position . 0))
+  '((mark-ring (3205))))
 

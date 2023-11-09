@@ -410,3 +410,63 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 (setq dired-hide-details-mode t)
 (setq fit-frame-in-buffer t)
+;; nov.el epub reader
+;; https://depp.brause.cc/nov.el/
+(add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
+(defun my-nov-font-setup ()
+  (face-remap-add-relative 'variable-pitch :family "Liberation Serif"
+                                           :height 1.0))
+(add-hook 'nov-mode-hook 'my-nov-font-setup)
+(setq nov-text-width 80)
+(setq nov-text-width t)
+(setq visual-fill-column-center-text t)
+(add-hook 'nov-mode-hook 'visual-line-mode)
+
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-hook 'nov-mode-hook 'visual-fill-column-mode)
+(require 'justify-kp)
+(setq nov-text-width t)
+
+(defun my-nov-window-configuration-change-hook ()
+  (my-nov-post-html-render-hook)
+  (remove-hook 'window-configuration-change-hook
+               'my-nov-window-configuration-change-hook
+               t))
+
+(defun my-nov-post-html-render-hook ()
+  (if (get-buffer-window)
+      (let ((max-width (pj-line-width))
+            buffer-read-only)
+        (save-excursion
+          (goto-char (point-min))
+          (while (not (eobp))
+            (when (not (looking-at "^[[:space:]]*$"))
+              (goto-char (line-end-position))
+              (when (> (shr-pixel-column) max-width)
+                (goto-char (line-beginning-position))
+                (pj-justify)))
+            (forward-line 1))))
+    (add-hook 'window-configuration-change-hook
+              'my-nov-window-configuration-change-hook
+              nil t)))
+
+(add-hook 'nov-post-html-render-hook 'my-nov-post-html-render-hook)
+
+;; begin customization of xah fly keys
+;; add global toggle key command/insert mode
+;; note F4 is taken so use F5 instead
+
+(global-set-key (kbd "<f5>") 'xah-fly-mode-toggle) ; this works
+
+;; add a key to insert mode to activate command mode sort of jk escape in vim
+;; note the term 'a key' meaning only one key char
+;; use target key \ aka forward slash but
+;; note to use this literal char (in insert mode) hit C-q first
+
+(define-key xah-fly-insert-map (kbd "\\") 'xah-fly-command-mode-activate) ; this works
+
+;; now insert literal fwd slash by doing C-q first then the character \  (yup it works)
+
+
+(setq xah-fly-command-mode-indicator "🔺")
+(setq xah-fly-insert-mode-indicator "✏" )

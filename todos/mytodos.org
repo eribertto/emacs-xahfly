@@ -1,8 +1,13 @@
 * TODO My TODO for this machine Ubuntu 23. 
-* add new items here
-* setup dotfiles and bash prompt, copy from nuc eos machine
-* Learn more practical usage of embark-consult  https://github.com/emacs-straight/embark-consult
-* Plan to DL Magda Kays youtube vlog
+* Learn more practical usage of embark-consult  https://github.com/emacs-straigh/embark-consult
+* Setup syncthing in this machine
+* Spice up org-mode in emacs
+* setup eww to be default browser in emacs
+* follow the xah lee customization guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
+* Re read xah fly keys cheatsheet to discover more shortcuts
+* Add $home/bin to path to use remove.spaces.sh
+* Do test drive Fed39 sway in the isos folder under Downloads e.g. install in spare Thinkpad machine, not in this nuc as I am sort of enjoying Ubuntu 23.10 atm.
+* Plan to install iso burner app.
 * Complete viewing the series below
   11.22.63.S01E01.720p.BluRay.x264.ShAaNiG.mkv
   11.22.63.S01E02.720p.BluRay.x264.ShAaNiG.mkv
@@ -14,7 +19,15 @@
   11.22.63.S01E08.720p.BluRay.x264.ShAaNiG.mkv
 * Plan to install telephone-line modeline, see gmail inbox
 * Learn eshell https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
-* Read this in eww https://ambrevar.xyz/emacs-eshell/index.html 
+* DONE Plan to DL Magda Kays youtube vlog
+- State "DONE"       from              [2023-11-08 Wed 06:24]
+* DONE setup dotfiles and bash prompt, copy from nuc eos machine
+- State "DONE"       from              [2023-11-08 Wed 06:09]
+* DONE Write the lyrics of this waraywaray song https://www.youtube.com/watch?v=i0H7ygjdCrk
+- State "DONE"       from              [2023-11-08 Wed 05:53]
+** also copy waray waray song file from github repo
+* DONE Install okular pdf reader 
+- State "DONE"       from              [2023-11-07 Tue 20:50]
 * DONE git init dot emacs.d dir to github, see the github link in eww separate frame
 - State "DONE"       from              [2023-11-06 Mon 19:30]
 * DONE add server mode in init file per this tute  https://www.emacswiki.org/emacs/EmacsAsDaemon
@@ -37,8 +50,11 @@
 - State "DONE"       from              [2023-11-06 Mon 05:55]
 * DONE Install dracula theme, see inbox for instructions https://draculatheme.com/emacs
 - State "DONE"       from              [2023-11-06 Mon 06:04]
+* DONE send bpi receipt to sjp re 10K transfer
+- State "DONE"       from              [2023-11-06 Mon 18:50]
+* OBSOLETE Read this in eww https://ambrevar.xyz/emacs-eshell/index.html 
+- State "OBSOLETE"   from              [2023-11-08 Wed 05:53] \\
+  this link is not reading in eww, only in graphical browser.
 * OBSOLETE setup xah selection keys shortcuts x 4
 - State "OBSOLETE"   from              [2023-11-06 Mon 06:19] \\
   this is included in xah lee fly keys mode
-* DONE send bpi receipt to sjp re 10K transfer
-- State "DONE"       from              [2023-11-06 Mon 18:50]
