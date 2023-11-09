@@ -15,3 +15,4 @@
 
 
 ;; todo: open xah-fly-keys tutorial in eww then insert the page in a buffer and save it as an org file for easy reference
+(print (font-family-list))

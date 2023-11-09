@@ -4,7 +4,6 @@
 * Spice up org-mode in emacs
 * setup eww to be default browser in emacs
 * follow the xah lee customization guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
-* Re read xah fly keys cheatsheet to discover more shortcuts
 * Add $home/bin to path to use remove.spaces.sh
 * Do test drive Fed39 sway in the isos folder under Downloads e.g. install in spare Thinkpad machine, not in this nuc as I am sort of enjoying Ubuntu 23.10 atm.
 * Plan to install iso burner app.
@@ -17,8 +16,13 @@
   11.22.63.S01E06.720p.BluRay.x264.ShAaNiG.mkv
   11.22.63.S01E07.720p.BluRay.x264.ShAaNiG.mkv
   11.22.63.S01E08.720p.BluRay.x264.ShAaNiG.mkv
-* Plan to install telephone-line modeline, see gmail inbox
 * Learn eshell https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
+* DONE Plan to install telephone-line modeline, see gmail inbox
+- State "DONE"       from              [2023-11-09 Thu 20:42]
+* DONE Re read xah fly keys cheatsheet to discover more shortcuts
+- State "DONE"       from              [2023-11-09 Thu 20:41]
+* DONE Install juliamono font, see eww buffer.
+- State "DONE"       from              [2023-11-09 Thu 20:40]
 * DONE Plan to DL Magda Kays youtube vlog
 - State "DONE"       from              [2023-11-08 Wed 06:24]
 * DONE setup dotfiles and bash prompt, copy from nuc eos machine

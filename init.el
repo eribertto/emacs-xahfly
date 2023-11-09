@@ -474,18 +474,15 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
 
 ;; now insert literal fwd slash by doing C-q first then the character \  (yup it works)
 
-
-(setq xah-fly-command-mode-indicator "🔺")
-(setq xah-fly-insert-mode-indicator "✏" )
-
-(defun my-modeline-color-on () (set-face-background 'mode-line "firebrick"))
-(defun my-modeline-color-off () (set-face-background 'mode-line "grey"))
+;; modeline colors and icons
+(defun my-modeline-color-on () (set-face-background 'mode-line "grey"))
+(defun my-modeline-color-off () (set-face-background 'mode-line "firebrick"))
 
 (add-hook 'xah-fly-command-mode-activate-hook 'my-modeline-color-on)
 (add-hook 'xah-fly-insert-mode-activate-hook  'my-modeline-color-off)
 ;; setup unicode as per this link
 ;; http://xahlee.info/emacs/emacs/emacs_set_font_symbol.html
-;; symbola-font is installed via apt-get
+;; symbola-font and JuliaMono are installed via apt-get
 (set-fontset-font t 'symbol
  (cond
   ((eq system-type 'windows-nt)
@@ -497,3 +494,4 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
   ((eq system-type 'gnu/linux)
    (cond
     ((member "Symbola" (font-family-list)) "Symbola")))))
+    ;; ((member "JuliaMono" (font-family-list)) "JuliaMono")))))
