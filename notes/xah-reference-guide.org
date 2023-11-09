@@ -577,21 +577,4 @@ change background color
 (add-hook 'xah-fly-command-mode-activate-hook 'my-xfk-command-color)
 (add-hook 'xah-fly-insert-mode-activate-hook  'my-xfk-insert-color)
 
-See also: Emacs: Set Color Theme 
 
-2022-01-22 thanks to Christian Tietze https://christiantietze.de/, jamesni, yusz. 
-
-back to Emacs: Xah Fly Keys Customization
-
-* Emacs Search 🔍
-
-Xah Fly Keys
-
-* Xah Fly Keys
-* Tutorial
-* Customization
-* Batman Keyboard Layouts
-* History
-* Testimonial
-
-∑XAH © 2006, 2023 Xah Lee.

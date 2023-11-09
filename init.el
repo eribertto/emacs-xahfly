@@ -5,6 +5,13 @@
 (require 'better-defaults)
 (desktop-save-mode)
 (desktop-auto-save)
+
+;; UTF-8 as default encoding
+(set-language-environment 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-keyboard-coding-system 'utf-8-unix)
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; begin bedrock init copy
 ;; some sensible defaults from bedrock init file
@@ -470,3 +477,23 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
 
 (setq xah-fly-command-mode-indicator "🔺")
 (setq xah-fly-insert-mode-indicator "✏" )
+
+(defun my-modeline-color-on () (set-face-background 'mode-line "firebrick"))
+(defun my-modeline-color-off () (set-face-background 'mode-line "grey"))
+
+(add-hook 'xah-fly-command-mode-activate-hook 'my-modeline-color-on)
+(add-hook 'xah-fly-insert-mode-activate-hook  'my-modeline-color-off)
+;; setup unicode as per this link
+;; http://xahlee.info/emacs/emacs/emacs_set_font_symbol.html
+;; symbola-font is installed via apt-get
+(set-fontset-font t 'symbol
+ (cond
+  ((eq system-type 'windows-nt)
+   (cond
+    ((member "Segoe UI Symbol" (font-family-list)) "Segoe UI Symbol")))
+  ((eq system-type 'darwin)
+   (cond
+    ((member "Apple Symbols" (font-family-list)) "Apple Symbols")))
+  ((eq system-type 'gnu/linux)
+   (cond
+    ((member "Symbola" (font-family-list)) "Symbola")))))
