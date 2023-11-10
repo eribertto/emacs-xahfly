@@ -3,11 +3,11 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/Documents/org-roam/20231101205857-org.org")
- (front-context-string . "\n* Begin taking ")
- (rear-context-string . "D:\n#+title: org\n")
- (position . 81)
- (last-modified 25922 37474 953909 6000))
+ (filename . "~/Documents/org-roam/20231110070143-movies.org")
+ (front-context-string . "Complete viewing")
+ (rear-context-string . "+title: movies\n\n")
+ (position . 85)
+ (last-modified 25933 44880 683439 672000))
 ("bedrock-init"
  (filename . "~/bak.emacs.dirs/bedrock.emacs.d/init.el")
  (front-context-string . "\n;;;;;;;;;;;;;;;")

@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("bedrock-init"
+(("org-capture-last-stored"
+ (filename . "~/Documents/org-roam/20231101205857-org.org")
+ (front-context-string . "\n* Begin taking ")
+ (rear-context-string . "D:\n#+title: org\n")
+ (position . 81)
+ (last-modified 25922 37474 953909 6000))
+("bedrock-init"
  (filename . "~/bak.emacs.dirs/bedrock.emacs.d/init.el")
  (front-context-string . "\n;;;;;;;;;;;;;;;")
  (rear-context-string . "play-time-mode)\n")

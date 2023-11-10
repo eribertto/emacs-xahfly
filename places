@@ -1,5 +1,6 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/eriberttom/.emacs.d/init.el" . 16474)
+(("/home/eriberttom/.emacs.d/todos/mytodos.org" . 59)
+ ("/home/eriberttom/.emacs.d/init.el" . 23104)
  ("/home/eriberttom/"
   (dired-filename . "/home/eriberttom/.bash_aliases"))
  ("/home/eriberttom/.bash_aliases" . 7333)
@@ -8,7 +9,6 @@
   (dired-filename . "/home/eriberttom/Documents/pubs"))
  ("/home/eriberttom/Documents/pubs/"
   (dired-filename . "/home/eriberttom/Documents/pubs/Learning_GNU_Emacs,_3rd_Edition_(Debra_Cameron,_James_Elliott,_Marc_Loy_etc.)_(Z-Library)-1.epub"))
- ("/home/eriberttom/.emacs.d/todos/mytodos.org" . 126)
  ("/home/eriberttom/Documents/pubs/Learning_GNU_Emacs,_3rd_Edition_(Debra_Cameron,_James_Elliott,_Marc_Loy_etc.)_(Z-Library)-1.epub" . 2209)
  ("/home/eriberttom/.emacs.d/eshell/alias" . 33)
  ("/home/eriberttom/Documents/org-roam/20231101205857-org.org" . 81)

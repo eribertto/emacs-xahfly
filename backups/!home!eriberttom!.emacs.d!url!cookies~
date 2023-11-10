@@ -4,21 +4,20 @@
 (setq url-cookie-storage
  'nil)
 (setq url-cookie-secure-storage
- '((".reddit.com"
-  [url-cookie "loid" "000000000n8f2s10el.2.1699153852177.Z0FBQUFBQmxSd2U4eG1MYjlwbm1ubEV6UEZCdW5wakRPMGlFMUJBYll1T2F1R242VjNNNlJIN0IzSDBxYUlBa0x2cXo0WmF5Y0hXUzZxTWhOTk01OE1pRmhEMktrYTBtekhFRktoSjRqU0toY2RBZ2R4elhseDlIUFBrTnhFb2xnQzdjaWtPbzhUYk0" "Tue, 04 Nov 2025 03:10:52 GMT" "/" ".reddit.com" t]
-  [url-cookie "csv" "2" "Tue Nov 04 03:10:52 2025 GMT" "/" ".reddit.com" t])
- ("reddit.com"
-  [url-cookie "edgebucket" "6l3YyCZ4iQRhr6Kf8Z" "Tue Nov 04 03:10:49 2025 GMT" "/" "reddit.com" t]
-  [url-cookie "token_v2" "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJsb2lkIiwiZXhwIjoxNjk5MjQwMjUyLjE3Nzg3MiwiaWF0IjoxNjk5MTUzODUyLjE3Nzg3MiwianRpIjoiVWNjMU1TZ1BvTlU5UFpuc2kwVkdYWTA0TXc4a1R3IiwiY2lkIjoiMFItV0FNaHVvby1NeVEiLCJsaWQiOiJ0Ml9uOGYyczEwZWwiLCJsY2EiOjE2OTkxNTM4NTIxNzcsInNjcCI6ImVKeGtrZEdPdERBSWhkLWwxejdCX3lwX05odHNjWWFzTFFhb2szbjdEVm9jazcwN2NENHBIUDhuS0lxRkxFMnVCS0c0eXBsNzgxNFdMSVZNMDVRR3RheEFrcWIwSkRXV2Q1b1NGV3hHNW5LbEhTczBlR0NhVXVXU3VTMzB1TFFKemQxWTlPekVxTXBsNVVGVm9QVlVqVzFNWVh0aWZMT3gycENLNjNJcUUxZ1d5bWZ4b2g5eTlkWS1mN2JmaEhZd3JLZ0tEX1RPdUZWd1lfSERGSFpfVDAxNnRpNVkxTjdyUVdxZjYzRzc5bG16ME96Y2ZxN25yNDFrWEk2aC1RbjI3NjVmUWdjZWVWNW0xQUdNV01PUE11eklPdnlyRHFCeVFRRmpDZUxUQ09USzVkdF9DYlpyMDdfRzdSTV9mRFBpcGpmODFnelVjd25pMEtmeDlSc0FBUF9fSV9yYXVRIiwiZmxvIjoxfQ.eSOSDJoPI6rtUHykj8mZz1lAW4JhRPqVzKZAtMb0M_uvf8GUUiZA-ctr5l3mJ33FAihr8IimCNXfNWz1dlCKBZBqTmagGGnmzdsXkDbHmRm_pCBz1i6RHJSZo-U8h2z4ze8n2ZYZt_dp62HnN0lhK4tc5YEIio2GbPr51PaobkLmCHyz6cGXG-rx7jwlzXPsbEjVgn60SjHsQIuD6L1M8qgir7-xzDdzG_wy4KIABGFKPIRqcL0ugzqfQF5mCBlU1G2DdWg_hvIzRjBGSy_30Lmwp7XU7DRUKIhAgVi0ytY_7QYry2M2DDU63W591ti2VG2gjUPfZkhm60qHneiBIA" "Mon, 06 Nov 2023 03:10:52 GMT" "/" "reddit.com" t])
- ("gitlab.com"
-  [url-cookie "_gitlab_session" "7ae7329368401ac3da5418ce61eebc00" "Sun, 05 Nov 2023 05:11:57 GMT" "/" "gitlab.com" t])
- ("news.kcombinator.com"
-  [url-cookie "lobster_trap" "OumDCxamLK0T9E6IQQjzE2tcZLPPKPkrbcAusR3v%2FBaE4SmTytg%2F02UEh4eKoNtoN%2FTDBCFvHNzBguP9TcjVHhyEGEFAMO%2FB2nwEz86wIGRtz53xQB2XVvDwbHmC5Ex4jNqzkz5fjfKjBbKAt46uqrdECyGarMWbG%2Bd2YwBKej7M0HnMR%2FzKIgAoor6O9%2F6ptws2Fr2RISpcXPL5XD2QIHvv0LTcCx6Orq88iqv9cqtiL%2FrFJxYqtZ9EAmbu7sogmQ8LFeu%2B2EZ582Pmk3p8YTZ5v2jySIyXMmXxz1TQQjALenHbRpW8fplt--vsoAbPLdXfbV%2FHzL--txLt6yRUJIBCbAJjEvmvgQ%3D%3D" "Tue, 05 Dec 2023 03:12:31 GMT" "/" "news.kcombinator.com" t])
+ '(("github.com"
+  [url-cookie "_octo" "GH1.1.1584779108.1698855162" "Fri, 01 Nov 2024 16:12:42 GMT" "/" "github.com" t]
+  [url-cookie "logged_in" "no" "Fri, 01 Nov 2024 16:12:42 GMT" "/" "github.com" t])
  (".stackexchange.com"
   [url-cookie "prov" "4d0d3289-aa17-47b2-99ab-c73d4dfa0335" "Tue, 05 Nov 2024 03:13:19 GMT" "/" ".stackexchange.com" t])
- ("github.com"
-  [url-cookie "logged_in" "no" "Fri, 01 Nov 2024 16:12:42 GMT" "/" "github.com" t]
-  [url-cookie "_octo" "GH1.1.1584779108.1698855162" "Fri, 01 Nov 2024 16:12:42 GMT" "/" "github.com" t]))
+ ("news.kcombinator.com"
+  [url-cookie "lobster_trap" "OumDCxamLK0T9E6IQQjzE2tcZLPPKPkrbcAusR3v%2FBaE4SmTytg%2F02UEh4eKoNtoN%2FTDBCFvHNzBguP9TcjVHhyEGEFAMO%2FB2nwEz86wIGRtz53xQB2XVvDwbHmC5Ex4jNqzkz5fjfKjBbKAt46uqrdECyGarMWbG%2Bd2YwBKej7M0HnMR%2FzKIgAoor6O9%2F6ptws2Fr2RISpcXPL5XD2QIHvv0LTcCx6Orq88iqv9cqtiL%2FrFJxYqtZ9EAmbu7sogmQ8LFeu%2B2EZ582Pmk3p8YTZ5v2jySIyXMmXxz1TQQjALenHbRpW8fplt--vsoAbPLdXfbV%2FHzL--txLt6yRUJIBCbAJjEvmvgQ%3D%3D" "Tue, 05 Dec 2023 03:12:31 GMT" "/" "news.kcombinator.com" t])
+ ("reddit.com"
+  [url-cookie "edgebucket" "6l3YyCZ4iQRhr6Kf8Z" "Tue Nov 04 03:10:49 2025 GMT" "/" "reddit.com" t])
+ (".stackoverflow.com"
+  [url-cookie "prov" "5f6f9da8-3dee-45c5-a83d-182d96dfd2e3" "Fri, 08 Nov 2024 02:45:11 GMT" "/" ".stackoverflow.com" t])
+ (".reddit.com"
+  [url-cookie "csv" "2" "Tue Nov 04 03:10:52 2025 GMT" "/" ".reddit.com" t]
+  [url-cookie "loid" "000000000n8f2s10el.2.1699153852177.Z0FBQUFBQmxSd2U4eG1MYjlwbm1ubEV6UEZCdW5wakRPMGlFMUJBYll1T2F1R242VjNNNlJIN0IzSDBxYUlBa0x2cXo0WmF5Y0hXUzZxTWhOTk01OE1pRmhEMktrYTBtekhFRktoSjRqU0toY2RBZ2R4elhseDlIUFBrTnhFb2xnQzdjaWtPbzhUYk0" "Tue, 04 Nov 2025 03:10:52 GMT" "/" ".reddit.com" t]))
 )
 
 ;; Local Variables:

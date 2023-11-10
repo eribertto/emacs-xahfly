@@ -1,22 +1,20 @@
 * TODO My TODO for this machine Ubuntu 23. 
-* Learn more practical usage of embark-consult  https://github.com/emacs-straigh/embark-consult
+* Centaur tabs  https://github.com/ema2159/centaur-tabs
+* Check org captures for saved notes and todos e.g. org-roam-node-find
+* Solve kitty terminal weird symbols, glyphs e.g. probably unicode related
+* Try audacity re edit of opus sound files e.g. waraywaray chacha.
+* Learn more  https://github.com/emacs-straigh/embark-consult
 * Setup syncthing in this machine
 * Spice up org-mode in emacs
-* setup eww to be default browser in emacs
-* follow the xah lee customization guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
-* Add $home/bin to path to use remove.spaces.sh
-* Do test drive Fed39 sway in the isos folder under Downloads e.g. install in spare Thinkpad machine, not in this nuc as I am sort of enjoying Ubuntu 23.10 atm.
+* setup eww as default url browser in emacs
+* xah guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
+* Do test drive Fed39 sway 
 * Plan to install iso burner app.
-* Complete viewing the series below
-  11.22.63.S01E01.720p.BluRay.x264.ShAaNiG.mkv
-  11.22.63.S01E02.720p.BluRay.x264.ShAaNiG.mkv
-  11.22.63.S01E03.720p.BluRay.x264.ShAaNiG.mkv
-  11.22.63.S01E04.720p.BluRay.x264.ShAaNiG.mkv
-  11.22.63.S01E05.720p.BluRay.x264.ShAaNiG.mkv
-  11.22.63.S01E06.720p.BluRay.x264.ShAaNiG.mkv
-  11.22.63.S01E07.720p.BluRay.x264.ShAaNiG.mkv
-  11.22.63.S01E08.720p.BluRay.x264.ShAaNiG.mkv
 * Learn eshell https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
+* DONE Read up emacs refactoring https://lambdaland.org/posts/2023-05-31_warp_factor_refactor/
+- State "DONE"       from              [2023-11-10 Fri 08:01]
+* DONE Add $home/bin to path to use remove.spaces.sh
+- State "DONE"       from              [2023-11-09 Thu 21:18]
 * DONE Plan to install telephone-line modeline, see gmail inbox
 - State "DONE"       from              [2023-11-09 Thu 20:42]
 * DONE Re read xah fly keys cheatsheet to discover more shortcuts

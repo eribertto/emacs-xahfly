@@ -165,6 +165,20 @@
   :config
   (marginalia-mode))
 
+(use-package vertico
+  :ensure t
+  :config
+  (vertico-mode))
+
+(use-package consult
+  :ensure t
+  :bind
+  (("C-c r" . consult-ripgrep)))
+
+(use-package wgrep
+  :ensure t)
+
+
 (use-package embark
   :ensure t
 
@@ -194,9 +208,15 @@
 ;; Consult users will also want the embark-consult package.
 (use-package embark-consult
   :ensure t ; only need to install it, embark loads it after consult if found
+  :after (embark consult)
   :hook
   (embark-collect-mode . consult-preview-at-point-mode))
 
+
+
+
+
+;; Themes
 ;; (load-theme 'charcoal-black t) ;; t disables prompting
 ;; (load-theme 'cobalt t)
 (load-theme 'dracula t)
@@ -470,11 +490,13 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
 ;; use target key \ aka forward slash but
 ;; note to use this literal char (in insert mode) hit C-q first
 
-(define-key xah-fly-insert-map (kbd "\\") 'xah-fly-command-mode-activate) ; this works
+(define-key xah-fly-insert-map (kbd "\\") 'xah-fly-command-mode-activate)
 
-;; now insert literal fwd slash by doing C-q first then the character \  (yup it works)
+;; insert by doing C-q first then the character \  (in insert mode)
 
 ;; modeline colors and icons
+(setq xah-fly-command-mode-indicator "🔺")
+(setq xah-fly-insert-mode-indicator "✏" )
 (defun my-modeline-color-on () (set-face-background 'mode-line "grey"))
 (defun my-modeline-color-off () (set-face-background 'mode-line "firebrick"))
 
@@ -495,3 +517,107 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
    (cond
     ((member "Symbola" (font-family-list)) "Symbola")))))
     ;; ((member "JuliaMono" (font-family-list)) "JuliaMono")))))
+
+;; set browser to emacs default
+;; (setq browse-url-browser-function 'browse-url-default-browser)
+;; set browser to emacs browser
+;; (setq browse-url-browser-function 'eww-browse-url)
+;; use diff browsers depending on url
+;; (setq
+;;  browse-url-handlers
+;;  '(("wikipedia\\.org" . browse-url-firefox)
+;;    ;; ("github" . browse-url-chromium)
+;;    ("youtube" . browse-url-firefox)
+;;    ("github" . browse-url-firefox)
+;;    ("thefreedictionary\\.com" . eww-browse-url)
+;;    ("." . eww-browse-url)))
+;; open url in new buffe
+;; http://xahlee.info/emacs/emacs/emacs_eww_web_browser.html
+(setq browse-url-browser-function 'eww-browse-url
+      shr-use-colors nil
+      shr-bullet "• "
+      shr-folding-mode t
+      eww-search-prefix "https://duckduckgo.com/html?q="
+      url-privacy-level '(email agent cookies lastloc))
+
+
+;; centaur tabs
+;;  https://github.com/ema2159/centaur-tabs
+(tab-bar-mode -1) ;; disable this to give way to centaur-tabs
+(use-package centaur-tabs
+  :init
+  (setq centaur-tabs-enable-key-bindings t)
+  :config
+  (setq centaur-tabs-style "bar"
+        centaur-tabs-height 32
+        centaur-tabs-set-icons t
+        centaur-tabs-show-new-tab-button t
+        centaur-tabs-set-modified-marker t
+        centaur-tabs-show-navigation-buttons t
+        centaur-tabs-set-bar 'under
+        centaur-tabs-show-count nil
+        ;; centaur-tabs-label-fixed-length 15
+        ;; centaur-tabs-gray-out-icons 'buffer
+        ;; centaur-tabs-plain-icons t
+        x-underline-at-descent-line t
+        centaur-tabs-left-edge-margin nil)
+  (centaur-tabs-change-fonts (face-attribute 'default :font) 110)
+  (centaur-tabs-headline-match)
+  ;; (centaur-tabs-enable-buffer-alphabetical-reordering)
+  ;; (setq centaur-tabs-adjust-buffer-order t)
+  (centaur-tabs-mode t)
+  (setq uniquify-separator "/")
+  (setq uniquify-buffer-name-style 'forward)
+  (defun centaur-tabs-buffer-groups ()
+    "`centaur-tabs-buffer-groups' control buffers' group rules.
+
+Group centaur-tabs with mode if buffer is derived from `eshell-mode' `emacs-lisp-mode' `dired-mode' `org-mode' `magit-mode'.
+All buffer name start with * will group to \"Emacs\".
+Other buffer group by `centaur-tabs-get-group-name' with project name."
+    (list
+     (cond
+      ;; ((not (eq (file-remote-p (buffer-file-name)) nil))
+      ;; "Remote")
+      ((or (string-equal "*" (substring (buffer-name) 0 1))
+           (memq major-mode '(magit-process-mode
+                              magit-status-mode
+                              magit-diff-mode
+                              magit-log-mode
+                              magit-file-mode
+                              magit-blob-mode
+                              magit-blame-mode
+                              )))
+       "Emacs")
+      ((derived-mode-p 'prog-mode)
+       "Editing")
+      ((derived-mode-p 'dired-mode)
+       "Dired")
+      ((memq major-mode '(helpful-mode
+                          help-mode))
+       "Help")
+      ((memq major-mode '(org-mode
+                          org-agenda-clockreport-mode
+                          org-src-mode
+                          org-agenda-mode
+                          org-beamer-mode
+                          org-indent-mode
+                          org-bullets-mode
+                          org-cdlatex-mode
+                          org-agenda-log-mode
+                          diary-mode))
+       "OrgMode")
+      (t
+       (centaur-tabs-get-group-name (current-buffer))))))
+  :hook
+  (dashboard-mode . centaur-tabs-local-mode)
+  (term-mode . centaur-tabs-local-mode)
+  (calendar-mode . centaur-tabs-local-mode)
+  (org-agenda-mode . centaur-tabs-local-mode)
+  :bind
+  ("C-<prior>" . centaur-tabs-backward)
+  ("C-<next>" . centaur-tabs-forward)
+  ("C-S-<prior>" . centaur-tabs-move-current-tab-to-left)
+  ("C-S-<next>" . centaur-tabs-move-current-tab-to-right))
+  ;; (:map evil-normal-state-map
+  ;;       ("g t" . centaur-tabs-forward)
+  ;;       ("g T" . centaur-tabs-backward))

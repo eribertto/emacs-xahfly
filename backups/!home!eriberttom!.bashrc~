@@ -120,6 +120,6 @@ alias ttn='task newest'
 alias tta='task add'
 alias tt=task
 alias ttc='task completed'
-alias src='source $HOME/.bashrc'
+alias src='source $HOME/.bashrc && echo source-done'
 alias c=clear
 . "$HOME/.cargo/env"
