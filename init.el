@@ -23,7 +23,14 @@
 (setq inhibit-splash-screen t)
 
 ;; Show the tab-bar as soon as tab-bar functions are invoked
+(tab-bar-mode)
 (setq tab-bar-show 0)
+
+;; xah lees guide http://xahlee.info/emacs/emacs/keyboard_shortcuts.html
+;; keybinding shortcuts syntax for emacs 29
+(keymap-global-set "C-^" #'tab-previous)
+(keymap-global-set "C-&" #'tab-next)
+
 ;; Add the time to the tab-bar, if visible
 (add-to-list 'tab-bar-format 'tab-bar-format-align-right 'append)
 (add-to-list 'tab-bar-format 'tab-bar-format-global 'append)
@@ -554,24 +561,25 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
         centaur-tabs-show-new-tab-button t
         centaur-tabs-set-modified-marker t
         centaur-tabs-show-navigation-buttons t
-        centaur-tabs-set-bar 'under
+        centaur-tabs-set-bar 'over
         centaur-tabs-show-count nil
         ;; centaur-tabs-label-fixed-length 15
-        ;; centaur-tabs-gray-out-icons 'buffer
+        centaur-tabs-gray-out-icons 'buffer
         ;; centaur-tabs-plain-icons t
         x-underline-at-descent-line t
         centaur-tabs-left-edge-margin nil)
   (centaur-tabs-change-fonts (face-attribute 'default :font) 110)
   (centaur-tabs-headline-match)
-  ;; (centaur-tabs-enable-buffer-alphabetical-reordering)
-  ;; (setq centaur-tabs-adjust-buffer-order t)
+  (centaur-tabs-enable-buffer-alphabetical-reordering)
+  (setq centaur-tabs-adjust-buffer-order t)
   (centaur-tabs-mode t)
+  (setq centaur-tabs-close-button "X")
   (setq uniquify-separator "/")
   (setq uniquify-buffer-name-style 'forward)
   (defun centaur-tabs-buffer-groups ()
     "`centaur-tabs-buffer-groups' control buffers' group rules.
 
-Group centaur-tabs with mode if buffer is derived from `eshell-mode' `emacs-lisp-mode' `dired-mode' `org-mode' `magit-mode'.
+Group centaur-tabs mode if buffer is derived from `eshell-mode' `emacs-lisp-mode' `dired-mode' `org-mode' `magit-mode'.
 All buffer name start with * will group to \"Emacs\".
 Other buffer group by `centaur-tabs-get-group-name' with project name."
     (list

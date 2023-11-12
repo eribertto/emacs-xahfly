@@ -1,16 +1,23 @@
-* TODO My TODO for this machine Ubuntu 23. 
-* Centaur tabs  https://github.com/ema2159/centaur-tabs
+* My TODO for this machine Ubuntu 23. 
+* Big fuckup tonight 2023-11-11 i deleted my EOS partition /dev/nvme0* OMG what a dumb ass I was! Was it a sign to install latest Fed39 in that disk? Hmmm only time can tell.
 * Check org captures for saved notes and todos e.g. org-roam-node-find
 * Solve kitty terminal weird symbols, glyphs e.g. probably unicode related
-* Try audacity re edit of opus sound files e.g. waraywaray chacha.
 * Learn more  https://github.com/emacs-straigh/embark-consult
 * Setup syncthing in this machine
 * Spice up org-mode in emacs
-* setup eww as default url browser in emacs
-* xah guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
-* Do test drive Fed39 sway 
-* Plan to install iso burner app.
-* Learn eshell https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
+* Do test drive Fed39 sway after burning to usb drive with BalenaEtcher appimage
+* DONE xah guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
+- State "DONE"       from              [2023-11-11 Sat 19:48]
+* DONE Try audacity re edit of opus sound files e.g. waraywaray chacha.
+- State "DONE"       from              [2023-11-11 Sat 17:52]
+* DONE Centaur tabs  https://github.com/ema2159/centaur-tabs
+- State "DONE"       from              [2023-11-11 Sat 17:52]
+* DONE setup eww as default url browser in emacs
+- State "DONE"       from              [2023-11-11 Sat 17:51]
+* DONE Learn eshell https://www.gnu.org/software/emacs/manual/html_mono/eshell.html
+- State "DONE"       from              [2023-11-11 Sat 17:51]
+* DONE Plan to install iso burner app balena.
+- State "DONE"       from              [2023-11-11 Sat 17:50]
 * DONE Read up emacs refactoring https://lambdaland.org/posts/2023-05-31_warp_factor_refactor/
 - State "DONE"       from              [2023-11-10 Fri 08:01]
 * DONE Add $home/bin to path to use remove.spaces.sh
