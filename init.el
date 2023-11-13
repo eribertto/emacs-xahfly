@@ -629,3 +629,4 @@ Other buffer group by `centaur-tabs-get-group-name' with project name."
   ;; (:map evil-normal-state-map
   ;;       ("g t" . centaur-tabs-forward)
   ;;       ("g T" . centaur-tabs-backward))
+

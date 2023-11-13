@@ -1,5 +1,6 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url "https://mihaiolteanu.me/emacs-workspace-management" :title "Mihai Olteanu" :time "Sat Nov 11 18:31:39 2023")
+((:url "https://release.gnome.org/45/" :title "GNOME Release Notes" :time "Mon Nov 13 20:17:03 2023")
+ (:url "https://mihaiolteanu.me/emacs-workspace-management" :title "Mihai Olteanu" :time "Sat Nov 11 18:31:39 2023")
  (:url "https://mmk2410.org/2022/02/11/using-emacs-tab-bar-mode/" :title "Marcel Kapfer - Using Emacs tab-bar-mode" :time "Sat Nov 11 18:27:25 2023")
  (:url "https://ersi.vivaldi.net/2020/02/19/eww-a-web-browser-inside-a-text-editor/" :title "Eww, a web browser inside a text editor | Ersi" :time "Fri Nov 10 14:46:39 2023")
  (:url "https://help.ubuntu.com/community/EnvironmentVariables#Persistent_environment_variables" :title "EnvironmentVariables - Community Help Wiki" :time "Thu Nov  9 21:40:27 2023")
