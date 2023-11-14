@@ -1,5 +1,6 @@
 * My TODO for this machine Ubuntu 23. 
 * Big fuckup tonight 2023-11-11 i deleted my EOS partition /dev/nvme0* OMG what a dumb ass I was! Was it a sign to install latest Fed39 in that disk? Hmmm only time can tell.
+* Use tabby appimage using this ubuntu link https://askubuntu.com/questions/774490/what-is-an-appimage-how-do-i-install-it
 * Check org captures for saved notes and todos e.g. org-roam-node-find
 * Solve kitty terminal weird symbols, glyphs e.g. probably unicode related
 * Learn more  https://github.com/emacs-straigh/embark-consult

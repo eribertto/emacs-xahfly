@@ -1,6 +1,7 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/eriberttom/.emacs.d/todos/mytodos.org" . 499)
- ("/home/eriberttom/.emacs.d/init.el" . 20261)
+(("/home/eriberttom/.emacs.d/init.el" . 16380)
+ ("/home/eriberttom/temp/xah-fly-keys-ubuntu-nuc.el" . 201)
+ ("/home/eriberttom/.emacs.d/todos/mytodos.org" . 499)
  ("/home/eriberttom/"
   (dired-filename . "/home/eriberttom/.bash_aliases"))
  ("/home/eriberttom/.bash_aliases" . 7333)

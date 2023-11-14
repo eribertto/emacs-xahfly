@@ -1,11 +1,15 @@
 ;; begin setup of clean emacs init file
 ;; october 31, 2023
 
+
+;; NOTE 2023-11-14: emacs starts as daemon in this instance
+;; following this link https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en
+
 (add-to-list 'load-path "~/Github-repos/better-defaults")
 (require 'better-defaults)
 (desktop-save-mode)
 (desktop-auto-save)
-
+(server-mode 1)
 ;; UTF-8 as default encoding
 (set-language-environment 'utf-8)
 (set-default-coding-systems 'utf-8)
@@ -446,7 +450,7 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
 (with-eval-after-load 'org (global-org-modern-mode))
 ;; To use this package, simply add this to your init.el:
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
-(setq dired-hide-details-mode t)
+(setq dired-hide-details-mode nil)
 (setq fit-frame-in-buffer t)
 ;; nov.el epub reader
 ;; https://depp.brause.cc/nov.el/
