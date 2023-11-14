@@ -5,7 +5,8 @@
 * Learn more  https://github.com/emacs-straigh/embark-consult
 * Setup syncthing in this machine
 * Spice up org-mode in emacs
-* Do test drive Fed39 sway after burning to usb drive with BalenaEtcher appimage
+* Do test drive isos in Ventoy usb drive including Fed39
+* Write up waraywaray lyrics lima kami nga magburugto.
 * DONE xah guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
 - State "DONE"       from              [2023-11-11 Sat 19:48]
 * DONE Try audacity re edit of opus sound files e.g. waraywaray chacha.

@@ -17,7 +17,8 @@ f or Space Space (xah-fly-insert-mode-activate) → switch to insert mode.
 
 * Cursor Movement
 
-Switch to command mode. Then, follow keys are arrows. 
+Switch to command mode. Then, follow keys are arrows e.g. ala vim i is up, k is down,
+j and k are left and right movements respectively.
 
 
    i
