@@ -1,13 +1,25 @@
-* My TODO for this machine Ubuntu 23. 
-* Big fuckup tonight 2023-11-11 i deleted my EOS partition /dev/nvme0* OMG what a dumb ass I was! Was it a sign to install latest Fed39 in that disk? Hmmm only time can tell.
-* Use tabby appimage using this ubuntu link https://askubuntu.com/questions/774490/what-is-an-appimage-how-do-i-install-it
-* Check org captures for saved notes and todos e.g. org-roam-node-find
-* Solve kitty terminal weird symbols, glyphs e.g. probably unicode related
-* Learn more  https://github.com/emacs-straigh/embark-consult
+* My TODOs for this machine Ubuntu 23. 
+* Plan payment for nonoys Final exams last week of November.
+* Plan for his birthday this coming Dec. 2 plus tablet gift.
+* Plan to install dmw android app for OEC BM this dec vacay.
+* Plan to buy tatas iPad+pen, SJPs S22 ultra.
+* Get ctb BT mouse with usb-c receiver for macbook pro.
 * Setup syncthing in this machine
+* Learn more  https://github.com/emacs-straigh/embark-consult
 * Spice up org-mode in emacs
-* Do test drive isos in Ventoy usb drive including Fed39
-* Write up waraywaray lyrics lima kami nga magburugto.
+* DONE Do test install isos in Ventoy usb drive including Fed39
+- State "DONE"       from              [2023-11-15 Wed 20:07]
+* DONE Check org captures for saved notes and todos e.g. org-roam-node-find
+- State "DONE"       from              [2023-11-14 Tue 19:57]
+* DONE Big fuckup tonight 2023-11-11 i deleted my EOS partition /dev/nvme0* OMG what a dumb ass I was! Was it a sign to install latest Fed39 in that disk? Hmmm only time can tell.
+- State "DONE"       from              [2023-11-14 Tue 19:57]
+* OBSOLETE Solve kitty terminal weird symbols, glyphs e.g. probably unicode related
+- State "OBSOLETE"   from              [2023-11-14 Tue 19:56] \\
+  use tabby terminal instead
+* DONE Write up waraywaray lyrics lima kami nga magburugto.
+- State "DONE"       from              [2023-11-14 Tue 19:55]
+* DONE Use tabby appimage using this ubuntu link https://askubuntu.com/questions/774490/what-is-an-appimage-how-do-i-install-it
+- State "DONE"       from              [2023-11-14 Tue 19:55]
 * DONE xah guide http://xahlee.info/emacs/misc/xah-fly-keys_mode_status.html
 - State "DONE"       from              [2023-11-11 Sat 19:48]
 * DONE Try audacity re edit of opus sound files e.g. waraywaray chacha.

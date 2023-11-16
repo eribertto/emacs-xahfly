@@ -1,10 +1,12 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/eriberttom/.emacs.d/init.el" . 16380)
- ("/home/eriberttom/temp/xah-fly-keys-ubuntu-nuc.el" . 201)
- ("/home/eriberttom/.emacs.d/todos/mytodos.org" . 499)
+(("/home/eriberttom/.bash_aliases" . 5740)
+ ("/home/eriberttom/GithubRepos/emacs/.gitignore" . 6384)
+ ("/home/eriberttom/.bashrc" . 3239)
+ ("/home/eriberttom/.emacs.d/todos/mytodos.org" . 349)
+ ("/home/eriberttom/temp/xah-fly-keys-ubuntu-nuc.el" . 16397)
+ ("/home/eriberttom/.emacs.d/init.el" . 6750)
  ("/home/eriberttom/"
   (dired-filename . "/home/eriberttom/.bash_aliases"))
- ("/home/eriberttom/.bash_aliases" . 7333)
  ("/home/eriberttom/.emacs.d/.gitignore" . 3248)
  ("/home/eriberttom/Documents/"
   (dired-filename . "/home/eriberttom/Documents/pubs"))
@@ -19,5 +21,4 @@
  ("/home/eriberttom/.emacs.d/extras/org.el" . 6008)
  ("/home/eriberttom/.emacs.d/notes/xah-fly-keys.tute.org" . 3907)
  ("/home/eriberttom/.config/systemd/user/emacs.service" . 313)
- ("/home/eriberttom/.bashrc" . 3821)
  ("/home/eriberttom/.emacs.d/bookmarks" . 251))

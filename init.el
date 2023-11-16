@@ -9,6 +9,7 @@
 (require 'better-defaults)
 (desktop-save-mode)
 (desktop-auto-save)
+(server-start)
 (server-mode 1)
 ;; UTF-8 as default encoding
 (set-language-environment 'utf-8)
@@ -53,7 +54,10 @@
 (global-auto-revert-mode)
 (auto-save-visited-mode 1)
 ;; Save history of minibuffer
-(savehist-mode)
+(use-package savehist
+  :init
+  (savehist-mode))
+
 (electric-pair-mode)
 
 ;; disable audio bell
@@ -176,13 +180,17 @@
 
 
 (use-package marginalia
+  :after vertico
   :ensure t
-  :config
+  :custom
+  (marginalia-annotators '(marginalia-annotators-heavy marginalia-annotators-light nil))
+  :init
   (marginalia-mode))
 
 (use-package vertico
   :ensure t
   :config
+  (vertico-buffer-mode)
   (vertico-mode))
 
 (use-package consult
@@ -534,20 +542,6 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
     ;; ((member "JuliaMono" (font-family-list)) "JuliaMono")))))
 
 ;; set browser to emacs default
-;; (setq browse-url-browser-function 'browse-url-default-browser)
-;; set browser to emacs browser
-;; (setq browse-url-browser-function 'eww-browse-url)
-;; use diff browsers depending on url
-;; (setq
-;;  browse-url-handlers
-;;  '(("wikipedia\\.org" . browse-url-firefox)
-;;    ;; ("github" . browse-url-chromium)
-;;    ("youtube" . browse-url-firefox)
-;;    ("github" . browse-url-firefox)
-;;    ("thefreedictionary\\.com" . eww-browse-url)
-;;    ("." . eww-browse-url)))
-;; open url in new buffe
-;; http://xahlee.info/emacs/emacs/emacs_eww_web_browser.html
 (setq browse-url-browser-function 'eww-browse-url
       shr-use-colors nil
       shr-bullet "• "

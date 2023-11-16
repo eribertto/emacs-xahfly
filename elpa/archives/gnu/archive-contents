@@ -916,7 +916,7 @@
 	     (:keywords "files" "unix" "convenience")
 	     (:url . "http://elpa.gnu.org/packages/dired-du.html"))])
  (dired-duplicates .
-		   [(0 2)
+		   [(0 3)
 		    ((emacs
 		      (27 1)))
 		    "Find duplicate files locally and remotely" tar
@@ -925,7 +925,7 @@
 		     (:maintainer "Harald Judt" . "h.judt@gmx.at")
 		     (:authors
 		      ("Harald Judt" . "h.judt@gmx.at"))
-		     (:commit . "349eebbd8b3fc10fa2a4551426769d20744e2eb2"))])
+		     (:commit . "e07552323b26ce68956f8b03aa66af145bae4d86"))])
  (dired-git-info .
 		 [(0 3 1)
 		  ((emacs
@@ -1647,11 +1647,11 @@
 	    (:maintainer "Damien Cassou" . "damien@cassou.me")
 	    (:url . "https://gitlab.petton.fr/DamienCassou/desktop-environment"))])
  (gpr-mode .
-	   [(1 0 4)
+	   [(1 0 5)
 	    ((emacs
 	      (25 3))
 	     (wisi
-	      (4 3 0))
+	      (4 3 2))
 	     (gnat-compiler
 	      (1 0 3)))
 	    "Major mode for editing GNAT project files" tar
@@ -1659,7 +1659,7 @@
 	     (:maintainer "Stephen Leake" . "stephen_leake@member.fsf.org")
 	     (:authors
 	      ("Stephen Leake" . "stephen_leake@member.fsf.org"))
-	     (:commit . "ed12dc73272f9f77c974db0ff0290f959125224f"))])
+	     (:commit . "9ca25ec5ca871f04b4704b39fb3ba129694e02ac"))])
  (gpr-query .
 	    [(1 0 4)
 	     ((emacs
@@ -2586,7 +2586,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "847694e78c12d903d5e3f6cb365a5d3b984db537"))])
  (org .
-      [(9 6 11)
+      [(9 6 12)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2595,7 +2595,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "cdd73bc955781d59c079f6af3c8fa3fcb497b7d3"))])
+	(:commit . "b55e38863136b40bfdbfaede05b45a773a001fc4"))])
  (org-contacts .
 	       [(1 1)
 		((emacs
