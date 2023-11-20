@@ -550,3 +550,10 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
       url-privacy-level '(email agent cookies lastloc))
 
 
+;; make aliases per this link https://www.youtube.com/watch?v=ufVldIrUOBg
+(defalias 'pcr 'package-refresh-contents)
+(defalias 'lp 'list-packages)
+(defalias 'tn 'tab-next)
+(defalias 'tp 'tab-previous)
+(defalias 'tc 'tab-close)
+(defalias 'fsa 'write-file)

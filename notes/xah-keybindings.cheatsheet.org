@@ -29,25 +29,6 @@ SPC u		xah-close-current-buffer
 SPC x		xah-cut-all-or-region
 SPC y		xah-search-current-word
 
-SPC / /		vc-next-action
-SPC / 1		vc-create-tag
-SPC / 2		vc-insert-headers
-SPC / 4		vc-retrieve-tag
-SPC / 5		vc-revision-other-window
-SPC / 6		vc-switch-backend
-SPC / 7		vc-update-change-log
-SPC / h		vc-annotate
-SPC / i		vc-update
-SPC / j		vc-diff
-SPC / k		vc-register
-SPC / l		vc-print-log
-SPC / m		vc-dir
-SPC / n		vc-root-diff
-SPC / o		vc-merge
-SPC / p		vc-print-root-log
-SPC / u		vc-push
-SPC / y		vc-revert
-
 SPC , ,		delete-frame
 SPC , c		xah-run-current-file
 SPC , d		eval-defun
@@ -240,4 +221,21 @@ SPC d i t	abbrev-prefix-mark
 SPC d i u	add-mode-abbrev
 SPC d i y	unexpand-abbrev
 
-[back]
+SPC / /		vc-next-action
+SPC / 1		vc-create-tag
+SPC / 2		vc-insert-headers
+SPC / 4		vc-retrieve-tag
+SPC / 5		vc-revision-other-window
+SPC / 6		vc-switch-backend
+SPC / 7		vc-update-change-log
+SPC / h		vc-annotate
+SPC / i		vc-update
+SPC / j		vc-diff
+SPC / k		vc-register
+SPC / l		vc-print-log
+SPC / m		vc-dir
+SPC / n		vc-root-diff
+SPC / o		vc-merge
+SPC / p		vc-print-root-log
+SPC / u		vc-push
+SPC / y		vc-revert
