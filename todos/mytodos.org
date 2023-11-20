@@ -3,10 +3,12 @@
 * Plan for his birthday this coming Dec. 2 plus tablet gift.
 * Plan to install dmw android app for OEC BM this dec vacay.
 * Plan to buy tatas iPad+pen, SJPs S22 ultra.
-* Get ctb BT mouse with usb-c receiver for macbook pro.
 * Setup syncthing in this machine
 * Learn more  https://github.com/emacs-straigh/embark-consult
 * Spice up org-mode in emacs
+* Plan to donate to CTB's cemetery project.
+* DONE Get ctb BT mouse with usb-c receiver for macbook pro.
+- State "DONE"       from              [2023-11-18 Sat 18:11]
 * DONE Do test install isos in Ventoy usb drive including Fed39
 - State "DONE"       from              [2023-11-15 Wed 20:07]
 * DONE Check org captures for saved notes and todos e.g. org-roam-node-find
