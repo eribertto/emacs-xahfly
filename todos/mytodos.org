@@ -1,4 +1,5 @@
 * My TODOs for this machine Ubuntu 23. 
+* Plan to restart this PC after an upgrade 2023-11-22
 * Plan payment for nonoys Final exams last week of November.
 * Plan for his birthday this coming Dec. 2 plus tablet gift.
 * Plan to install dmw android app for OEC BM this dec vacay.
@@ -6,9 +7,17 @@
 * Setup syncthing in this machine
 * Learn more  https://github.com/emacs-straigh/embark-consult
 * Spice up org-mode in emacs
-* Plan to donate to CTB's cemetery project.
 * Plan to add defalias of most common emacs commands https://www.youtube.com/watch?v=ufVldIrUOBg
-* TIL about treemacs a tree-like file manager ala ranger. Need to learn more about it.
+* Plan to learn ubuntu ufw setup
+* Plan to reset pagedown key in KA2 since no need for extensive use of Alt-key in xah-fly-keys.
+* DONE TIL about treemacs a tree-like file manager on the left side bar.
+- State "DONE"       from              [2023-11-22 Wed 06:25]
+* DONE Readup GatesNotes https://www.gatesnotes.com/Economics?WT.mc_id=20230907090000_EOY-List-2023_BG-EM_&WT.tsrc=BGEM
+- State "DONE"       from              [2023-11-22 Wed 06:25]
+* DONE PH map https://www.worldometers.info/img/maps/philippines_political_map.gif
+- State "DONE"       from              [2023-11-22 Wed 06:25]
+* DONE Plan to donate to CTB's cemetery project.
+- State "DONE"       from              [2023-11-21 Tue 05:51]
 * DONE Get ctb BT mouse with usb-c receiver for macbook pro.
 - State "DONE"       from              [2023-11-18 Sat 18:11]
 * DONE Do test install isos in Ventoy usb drive including Fed39
@@ -17,9 +26,6 @@
 - State "DONE"       from              [2023-11-14 Tue 19:57]
 * DONE Big fuckup tonight 2023-11-11 i deleted my EOS partition /dev/nvme0* OMG what a dumb ass I was! Was it a sign to install latest Fed39 in that disk? Hmmm only time can tell.
 - State "DONE"       from              [2023-11-14 Tue 19:57]
-* OBSOLETE Solve kitty terminal weird symbols, glyphs e.g. probably unicode related
-- State "OBSOLETE"   from              [2023-11-14 Tue 19:56] \\
-  use tabby terminal instead
 * DONE Write up waraywaray lyrics lima kami nga magburugto.
 - State "DONE"       from              [2023-11-14 Tue 19:55]
 * DONE Use tabby appimage using this ubuntu link https://askubuntu.com/questions/774490/what-is-an-appimage-how-do-i-install-it
@@ -82,6 +88,9 @@
 * OBSOLETE Read this in eww https://ambrevar.xyz/emacs-eshell/index.html 
 - State "OBSOLETE"   from              [2023-11-08 Wed 05:53] \\
   this link is not reading in eww, only in graphical browser.
+* OBSOLETE Solve kitty terminal weird symbols, glyphs e.g. probably unicode related
+- State "OBSOLETE"   from              [2023-11-14 Tue 19:56] \\
+  use tabby terminal instead
 * OBSOLETE setup xah selection keys shortcuts x 4
 - State "OBSOLETE"   from              [2023-11-06 Mon 06:19] \\
   this is included in xah lee fly keys mode
