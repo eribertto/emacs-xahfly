@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-capture-last-stored"
+(("learn-elisp-11%"
+ (filename . "~/.emacs.d/notes/intro-emacs-elisp.org")
+ (front-context-string . "1.9.3 Counting\n\n")
+ (rear-context-string . "ntents][Index]\n\n")
+ (position . 72686)
+ (last-modified 25951 29652 721190 119000))
+("10%"
+ (filename . "~/.emacs.d/notes/intro-emacs-elisp.org")
+ (front-context-string . "1.8.5 The messag")
+ (rear-context-string . "ntents][Index]\n\n")
+ (position . 64041)
+ (last-modified 25951 27995 54251 401000))
+("org-capture-last-stored"
  (filename . "~/Documents/org-roam/20231110070143-movies.org")
  (front-context-string . "Complete viewing")
  (rear-context-string . "+title: movies\n\n")

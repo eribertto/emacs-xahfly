@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Nov 15 20:48:45 2023
+;; Created Wed Nov 22 18:20:51 2023
 ;; Desktop file format version 208
 ;; Emacs version 29.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (25941 1149 663145 852000) (desktop . "208") "eriberttom@eriberttom-ubuntu2310" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (font-parameter) (environment) (sticky) (tabs (tab (name . "xah-fly-keys-ubuntu-nuc.el") (explicit-name) (time . 1700070166.2010865) (ws ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 1920) (pixel-height . 1928) (total-width . 91) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "xah-fly-keys-ubuntu-nuc.el" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 16366) (start . 16177)) (prev-buffers ("init.el" 1 16380) ("*scratch*" 1 1)))) (tab (name . "init.el") (explicit-name) (time . 1700070206.1296747) (ws ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 1920) (pixel-height . 1928) (total-width . 91) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 16380) (start . 15682)))) (current-tab (name . "mytodos.org") (explicit-name))) (last-focus-update . t) (frameset--id . "F2A9-1752-EF09-3839") (frameset--mini t . t) (height . 46) (width . 89) (modeline . t) (unsplittable) (left . 20) (top . 20) (icon-name) (display . "wayland-0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 1920) (pixel-height . 1928) (total-width . 91) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "mytodos.org" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 325) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (25950 7251 460215 135000) (desktop . "208") "eriberttom@eriberttom-ubuntu2310" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (font-parameter . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (font-parameter . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (environment) (sticky) (tabs (current-tab (name . "init.el") (explicit-name)) (tab (name . "*scratch*") (explicit-name) (time . 1700666366.0997941) (ws ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 1920) (pixel-height . 1928) (total-width . 91) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))) (modeline . t) (explicit-name) (cursor-color . "#ccccc7") (last-focus-update) (frameset--id . "67CA-C2B3-45CB-0B12") (frameset--mini t) (height . 46) (width . 89) (unsplittable) (left . 20) (top . 20) (icon-name) (display . "wayland-0")) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 1920) (pixel-height . 1928) (total-width . 91) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 20291) (start . 18824)) (prev-buffers ("mytodos.org" 1 271) ("xah-fly-keys-ubuntu-nuc.el" 187 273) ("*scratch*" 1 1))) (((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-regular-normal-normal-*-35-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (font-parameter) (environment) (sticky) (tabs (current-tab (name . "mytodos.org") (explicit-name))) (last-focus-update . t) (frameset--id . "DCA7-49A5-10A4-6724") (frameset--mini t . t) (height . 45) (width . 88) (modeline . t) (unsplittable) (left . 26) (top . 23) (icon-name) (display . "wayland-0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 210) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 42) (min-pixel-width-safe . 42)) leaf (pixel-width . 1891) (pixel-height . 1901) (total-width . 90) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "mytodos.org" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 1 t nil 1 t nil) (vscroll . 0) (dedicated) (point . 531) (start . 1)) (prev-buffers ("xah-fly-keys-ubuntu-nuc.el" 187 273) ("*scratch*" 1 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -22,34 +22,34 @@
   "mytodos.org"
   'org-mode
   '(font-lock-mode eldoc-mode corfu-mode org-modern-mode visual-line-mode flyspell-mode hl-line-mode)
-  325
+  531
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 25941 1131 447788 655000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((buffer-display-time 25950 7245 766403 415000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/home/eriberttom/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(hl-line-mode display-line-numbers-mode corfu-mode eldoc-mode font-lock-mode)
-  16380
+  '(font-lock-mode eldoc-mode corfu-mode display-line-numbers-mode hl-line-mode)
+  20291
   '(1 nil)
   nil
   nil
-  '((buffer-display-time 25941 830 130212 869000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (20263))))
+  '((buffer-display-time 25950 7144 259499 362000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (16380))))
 
 (desktop-create-buffer 208
   "/home/eriberttom/temp/xah-fly-keys-ubuntu-nuc.el"
   "xah-fly-keys-ubuntu-nuc.el"
   'emacs-lisp-mode
-  '(dired-hide-details-mode font-lock-mode eldoc-mode corfu-mode display-line-numbers-mode hl-line-mode)
-  16366
-  '(nil nil)
+  '(dired-hide-details-mode corfu-mode font-lock-mode eldoc-mode display-line-numbers-mode hl-line-mode)
+  273
+  '(273 nil)
   nil
   nil
-  '((buffer-display-time 25941 790 203114 783000) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 25950 7034 169543 448000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 

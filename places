@@ -1,10 +1,17 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/eriberttom/.bash_aliases" . 5740)
+(("/home/eriberttom/.emacs.d/init.el" . 16380)
+ ("/home/eriberttom/.emacs.d/todos/mytodos.org" . 536)
+ ("/home/eriberttom/temp/xah-fly-keys-ubuntu-nuc.el" . 202)
+ ("/home/eriberttom/.emacs.d/"
+  (dired-filename . "/home/eriberttom/.emacs.d/notes"))
+ ("/home/eriberttom/.emacs.d/notes/lima-kami-magburugtu.org" . 389)
+ ("/home/eriberttom/.emacs.d/notes/"
+  (dired-filename . "/home/eriberttom/.emacs.d/notes/xah-keybindings.cheatsheet.org"))
+ ("/home/eriberttom/.emacs.d/lisp/practice.elisp.el" . 82)
+ ("/home/eriberttom/.emacs.d/notes/intro-emacs-elisp.org" . 6129)
+ ("/home/eriberttom/.emacs.d/.cache/treemacs-persist" . 45)
  ("/home/eriberttom/GithubRepos/emacs/.gitignore" . 6384)
  ("/home/eriberttom/.bashrc" . 3239)
- ("/home/eriberttom/.emacs.d/todos/mytodos.org" . 349)
- ("/home/eriberttom/temp/xah-fly-keys-ubuntu-nuc.el" . 16397)
- ("/home/eriberttom/.emacs.d/init.el" . 6750)
  ("/home/eriberttom/"
   (dired-filename . "/home/eriberttom/.bash_aliases"))
  ("/home/eriberttom/.emacs.d/.gitignore" . 3248)
@@ -15,7 +22,6 @@
  ("/home/eriberttom/Documents/pubs/Learning_GNU_Emacs,_3rd_Edition_(Debra_Cameron,_James_Elliott,_Marc_Loy_etc.)_(Z-Library)-1.epub" . 2209)
  ("/home/eriberttom/.emacs.d/eshell/alias" . 33)
  ("/home/eriberttom/Documents/org-roam/20231101205857-org.org" . 81)
- ("/home/eriberttom/.emacs.d/notes/xah-keybindings.cheatsheet.org" . 3)
  ("/home/eriberttom/bak.emacs.dirs/bedrock.emacs.d/init.el" . 9639)
  ("/home/eriberttom/Github-repos/better-defaults/better-defaults.el" . 2294)
  ("/home/eriberttom/.emacs.d/extras/org.el" . 6008)

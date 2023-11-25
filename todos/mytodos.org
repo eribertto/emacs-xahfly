@@ -1,15 +1,25 @@
 * My TODOs for this machine Ubuntu 23. 
-* Plan to restart this PC after an upgrade 2023-11-22
+* Sticky: resume intro-emacs-elisp tutorial, check bookmark list.
+* Top up Tonik account of kids, mrs account this January 2024.
 * Plan payment for nonoys Final exams last week of November.
-* Plan for his birthday this coming Dec. 2 plus tablet gift.
-* Plan to install dmw android app for OEC BM this dec vacay.
-* Plan to buy tatas iPad+pen, SJPs S22 ultra.
+* Prepare fund for nonoys birthday Dec. 2 plus tablet gift + bday expenses.
+* Plan to install dmw android app for OEC BM this dec vacation.
+* Collect delivery of tatas iPad+pen+case
+* SJPs S22 samsung ultra
 * Setup syncthing in this machine
 * Learn more  https://github.com/emacs-straigh/embark-consult
+* Learn add-hook when in scroll-mode and bind esc to scroll stop.
 * Spice up org-mode in emacs
-* Plan to add defalias of most common emacs commands https://www.youtube.com/watch?v=ufVldIrUOBg
-* Plan to learn ubuntu ufw setup
-* Plan to reset pagedown key in KA2 since no need for extensive use of Alt-key in xah-fly-keys.
+* Learn defalias https://www.youtube.com/watch?v=ufVldIrUOBg
+* Learn ubuntu ufw firewall setup
+* Wash my UA muscle tees and sport tees.
+* Reset pagedown key in KA2 since no need for extensive use of Alt-key in xah-fly-keys.
+* DONE Wash CTB nike tees.
+- State "DONE"       from              [2023-11-24 Fri 13:53]
+* DONE Check nonoys tuition table for payment due.
+- State "DONE"       from              [2023-11-24 Fri 13:01]
+* DONE Plan to restart this PC after an upgrade 2023-11-22
+- State "DONE"       from              [2023-11-22 Wed 18:19]
 * DONE TIL about treemacs a tree-like file manager on the left side bar.
 - State "DONE"       from              [2023-11-22 Wed 06:25]
 * DONE Readup GatesNotes https://www.gatesnotes.com/Economics?WT.mc_id=20230907090000_EOY-List-2023_BG-EM_&WT.tsrc=BGEM

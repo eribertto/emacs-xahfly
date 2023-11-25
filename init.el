@@ -557,3 +557,9 @@ Version: 2020-02-04 2023-07-22 2023-07-23"
 (defalias 'tp 'tab-previous)
 (defalias 'tc 'tab-close)
 (defalias 'fsa 'write-file)
+(defalias 'jof 'other-frame)
+
+;; https://www.emacswiki.org/emacs/Scrolling
+;; page scroll by 30 lines increment
+(global-set-key "\M-n"  (lambda () (interactive) (scroll-up   30)) )
+(global-set-key "\M-h"  (lambda () (interactive) (scroll-down 30)) )
