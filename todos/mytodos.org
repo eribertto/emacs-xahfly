@@ -1,8 +1,12 @@
 * My TODOs for this machine Ubuntu 23. 
 * Sticky: resume intro-emacs-elisp tutorial, check bookmark list.
+* Make list of bahay-kubo veggies to plant in Passi farm.
+* Plan to install new OS in /dev/nvme0* partition then setup emacs new init file from purcells starter kit, also use xah-fly-keys and setup new KA2 bindings.
 * Top up Tonik account of kids, mrs account this January 2024.
 * Plan payment for nonoys Final exams last week of November.
-* Prepare fund for nonoys birthday Dec. 2 plus tablet gift + bday expenses.
+* Prepare fund 30K for nonoys birthday Dec. 2 plus tablet gift + bday expenses.
+* Practice zellij terminal multiplexer powered by Rust.
+* Fix and pack purchased electronics in backpack.
 * Plan to install dmw android app for OEC BM this dec vacation.
 * Collect delivery of tatas iPad+pen+case
 * SJPs S22 samsung ultra

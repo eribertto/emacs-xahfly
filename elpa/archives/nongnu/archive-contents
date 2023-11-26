@@ -221,11 +221,11 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 11 1)
+	[(1 12 0)
 	 ((emacs
 	   (26))
 	  (clojure-mode
-	   (5 18 0))
+	   (5 18 1))
 	  (parseedn
 	   (1 2 0))
 	  (queue
@@ -249,7 +249,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "9c605cd4938c0055c2766c55606f19ecbf664e8e"))])
+	  (:commit . "2bafc1ec67308de500ce7ce8ac8f79eae449dee8"))])
  (clojure-mode .
 	       [(5 18 1)
 		((emacs
@@ -2415,14 +2415,14 @@
 	      (:authors
 	       ("Le Wang")))])
  (xah-fly-keys .
-	       [(24 18 20231115084756)
+	       [(24 18 20231124130215)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "68335b2a903d9d9163129e92bbbf8927599739a6"))])
+		 (:commit . "770b9dc860cb0b58c80136c94ba39762143a3da7"))])
  (xkcd .
        [(1 1)
 	((json

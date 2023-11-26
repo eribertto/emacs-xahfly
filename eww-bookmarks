@@ -1,5 +1,9 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url "https://docs.syncthing.net/intro/getting-started.html" :title "Getting Started — Syncthing documentation" :time "Fri Nov 24 18:44:13 2023")
+((:url "https://www.emacswiki.org/emacs/MouseGeneral" :title "EmacsWiki: Mouse General" :time "Sat Nov 25 20:40:31 2023")
+ (:url "https://www.gnu.org/software/emacs/manual/html_node/elisp/Input-Events.html" :title "Input Events (GNU Emacs Lisp Reference Manual)" :time "Sat Nov 25 20:34:34 2023")
+ (:url "http://www.gnu.org/software/emacs/manual/html_node/emacs/Frames.html" :title "Frames (GNU Emacs Manual)" :time "Sat Nov 25 20:27:00 2023")
+ (:url "https://www.emacswiki.org/emacs/Mouse3" :title "EmacsWiki: Mouse3" :time "Sat Nov 25 20:26:19 2023")
+ (:url "https://docs.syncthing.net/intro/getting-started.html" :title "Getting Started — Syncthing documentation" :time "Fri Nov 24 18:44:13 2023")
  (:url "https://www.gnu.org/software/emacs/manual/html_mono/eintr.html" :title "Programming in Emacs Lisp" :time "Wed Nov 22 05:42:08 2023")
  (:url "https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html" :title "Top (Programming in Emacs Lisp)" :time "Wed Nov 22 05:36:02 2023")
  (:url "https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04" :title "How To Set Up a Firewall with UFW on Ubuntu 20.04 | DigitalOcean" :time "Sat Nov 18 18:20:21 2023")
